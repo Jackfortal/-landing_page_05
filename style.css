@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    height: auto;
+}
+
+header {
+    background-color: #f44322;
+    background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.log-header-doordash-container {
+    width: 100%;
+    height: 10vh;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-header-doordash {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.logo-doordash {
+    max-width: 40px;
+    max-height: 40px;
+}
+h6 {
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    color: white;
+}
+.btn-sing-container {
+    position: relative;
+}
+.btn-sing {
+    font-size: ;
+    font-weight: bolder;
+    width: 6vw;
+    height: 6vh;
+    border-radius: 20px;
+
+}
