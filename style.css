@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
-    height: auto;
+    height: 550vh;
 }
 
 header {
@@ -21,10 +21,14 @@ header {
 .log-header-doordash-container {
     width: 100%;
     height: 11vh;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    background-color: #f44322;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .log-header-doordash {
     display: flex;
@@ -70,6 +74,10 @@ h6 {
     margin-bottom: 40px;
     line-height: 4rem;
 }
+.h2-card {
+    font-size: 2rem;
+    text-align: center;
+}
 .search-box-inpt {
     width: 27vw;
     height: 9vh;
@@ -108,4 +116,42 @@ h6 {
 .link-sing {
     margin-top: 20px;
     color: white;
+}
+.section1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards-box {
+    width: 20vw;
+    height: 28vw;
+    border: 1px solid #eb1700;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cards-img {
+    max-width: 25vw;
+    height: 20vh;
+    border: 1px solid lime;
+}
+.text-card {
+    width: 20vw;
+    height: 25vh;
+    border: 1px solid lime;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-items: center;
+    /* align-items: center; */
+}
+.p-card {
+    text-align: center;
+    font-weight: 500;
 }
